@@ -97,6 +97,7 @@ Written and tested in R V.3.5.0 (2018-04-23) / Rstudio V.1.1.423 by R.Bruderer\n
 cat( "   \n" )
 
 #manual parameters to set: 
+
 #Qvalue cutoff cansdidate list
 Qcutoff <- 0.01
 #foldchange cutoff (log2) candidate list
@@ -107,7 +108,6 @@ ldaBGsize <- 400
 #RemConc <- c(200000000)
 
 
-## section1-ML-training ----
 #_____________________________________________________________________________________________
 
 #setting of pre-calculated score weights based on Rapamycin and Calyculin A and Staurosporine
